@@ -81,7 +81,7 @@ function SinglePost(props) {
                   <Button
                     as="div"
                     labelPosition="right"
-                    onClick={() => console.log("Comment on post")}
+                    onClick={() => commentInputRef.current.focus()}
                   >
                     <Button basic color="blue">
                       <Icon name="comments" />
